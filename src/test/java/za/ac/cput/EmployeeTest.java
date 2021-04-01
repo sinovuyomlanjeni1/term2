@@ -63,7 +63,7 @@ class EmployeeTest
     }
 
     @Test
-    @Timeout(500)
+    @Timeout(200)
     public void testWithTimeout()
     {
         System.out.println("Calculating salary");
