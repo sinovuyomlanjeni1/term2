@@ -65,14 +65,5 @@ public class Employee
         return "Full Name: "+getFullName()+" \nPosition: "+getPosition()+ "\nSalary: R"+getSalary();
     }
 
-    /*
-    public static void main(String[] args) {
-        Employee emp1 = new Employee();
-        emp1.setFullName("Akhona Mngqibisa");
-        emp1.setPosition("Manager");
-        emp1.setSalary(40);
-        System.out.println(emp1.toString());
-         }
 
-     */
 }
